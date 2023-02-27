@@ -6,10 +6,9 @@ puts "the array a is #{a} and array b is #{b}"
 
 b_size = b.size
 a_size = a.size
-index = 0
+
 for i in (0...b_size) 
-    a[a_size + index] = b[i] 
-    index += 1
+    a[a_size + i] = b[i] 
 end
 
 # we can also do
